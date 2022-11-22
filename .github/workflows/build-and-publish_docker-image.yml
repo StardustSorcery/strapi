@@ -1,5 +1,8 @@
 name: Build and Publish Docker Image
 
+permissions:
+  packages: write
+
 on:
   push:
     tags:
