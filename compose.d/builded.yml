@@ -2,9 +2,6 @@ version: "3"
 
 services:
   strapi:
-    build:
-      context: ../
-      dockerfile: dev.Dockerfile
     environment:
       DATABASE_CLIENT: mysql
       DATABASE_HOST: strapi-db
@@ -39,4 +36,5 @@ volumes:
 
 networks:
   strapi_db_net:
+
 

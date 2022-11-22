@@ -2,8 +2,7 @@ version: "3"
 
 services:
   strapi:
-    build:
-      context: ../
+    image: ghcr.io/stardustsorcery/strapi:1.0.0-beta1
     environment:
       HOST: 0.0.0.0
       PORT: 1337
