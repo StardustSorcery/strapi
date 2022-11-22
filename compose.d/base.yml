@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  strapi:
+    build:
+      context: ../
+    environment:
+      HOST: 0.0.0.0
+      PORT: 1337
+      APP_KEYS: udKMxoagGOWtDBBWPPfxBw==,6cdjCBaxNW6RIIz1P0yeuA==,PMDhwivztfaH/Hi+jb7mqA==,cgVWY7uRNvk813tVdNJugA==
+      API_TOKEN_SALT: AofoK3AYZnT15JcX4zbqMA==
+      ADMIN_JWT_SECRET: UJxRnb8gs7SOxFdRzhpF1g==
+      JWT_SECRET: S25vN2lTQUl1VDdBQnlRMQ==
+

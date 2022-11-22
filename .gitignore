@@ -1,0 +1,2 @@
+.env
+compose.d/gitignored*.yml

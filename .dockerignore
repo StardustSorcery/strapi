@@ -1,0 +1,7 @@
+.git/
+.env
+app/.tmp/
+app/.cache/
+app/.env
+app/node_modules/
+app/build/
