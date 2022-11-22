@@ -1,7 +1,6 @@
 name: Build and Publish Docker Image
 
-permissions:
-  packages: write
+permissions: write-all
 
 on:
   push:
